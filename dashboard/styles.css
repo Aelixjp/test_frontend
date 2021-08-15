@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    margin: 40px auto;
+    text-align: center;
+}
+
+.role{
+    color: rgb(18, 197, 18);
+    margin: auto 20px;
+}
+
+.table_users{
+    margin: 0 auto;
+}
+
+.table_users {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+.table_users td, .table_users th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.info{
+    text-align: center;
+    margin: 50px auto;
+}
+
+.icons{
+    display: block;
+    font-size: 25px;
+}
+
+.icons:hover{
+    cursor: pointer;
+}
+
+.icon-blue{
+    color: rgb(39, 143, 228);
+}
+
+.icon-red{
+    color: crimson;
+}
+
+input#add_user{
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    outline: none;
+    border: none;
+    background: crimson;
+    color: #fff;
+    margin: 50px auto;
+    padding: 15px;
+    transition: all .2s linear;
+}
+
+input#add_user:hover{
+    cursor: pointer;
+    background: rgb(253, 6, 80);
+}
